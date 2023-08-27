@@ -1,0 +1,38 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodapé.css);
+
+:root {
+    --cor-de-fundo: #b15353;
+    --cinza: #f7f6f6;
+    --branco: #FFFFFF;
+    --azul: #4f45d1;
+    --vermelho: #5f0a0a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 60%;
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .logo {
+        width: 25%;
+    }
+}
